@@ -859,8 +859,21 @@ main .table-section{
 
 
 
+.table-section .table .table-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2vw;
+    border: 1px solid var(--border-color6);
+    border-radius: 0.5vw 0.5vw 0 0.5vw;
+    border-collapse: collapse;
+}
 
 
+.table-section .table .table1 .head-row{
+    border:1px solid var(--border-color6);
+}
 
 
 
